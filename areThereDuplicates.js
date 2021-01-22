@@ -26,3 +26,9 @@ function areThereDuplicates() {
     }
     return false
   }
+
+  //one liner solution
+  
+  function areThereDuplicates() {
+    return new Set(arguments).size !== arguments.length;
+  }
